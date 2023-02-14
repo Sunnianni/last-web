@@ -1,0 +1,101 @@
+/* Flashlight Overlay */
+:root {
+  cursor: none;
+  --cursorX: 50vw;
+  --cursorY: 50vh;
+}
+:root:before {
+  content: '';
+  display: block;
+  width: 80%;
+  height: 100%;
+  position: fixed;
+  pointer-events: none;
+  background: radial-gradient(
+    circle 10vmax at var(--cursorX) var(--cursorY),
+    rgba(0,0,0,0) 0%,
+    rgba(0,0,0,.5) 80%,
+    rgba(0,0,0,.95) 100%
+  )
+}
+
+body {
+      margin: 0;
+      background: black;
+      
+    }
+
+POTOM NAPISAT DIV::selection
+{ color: yellow;
+
+  background-color: none;}
+
+    .flex-container {
+      display: flex; 
+    }
+    
+    .flex-element {
+      
+      width: 40%;
+      height: 100vh;
+      outline: double 5px #00FA9A;
+      outline-offset: -15px;
+    }
+    
+.flex-element2 {
+      
+      width: 20%;
+      height: 100vh;
+  
+    }
+
+.red{
+      background-color: black;
+        
+    }
+    
+    .green {
+      background-color: black;
+ 
+    }
+
+.blue {
+      background-color: aquamarine;
+    }
+
+
+
+h2 {
+  padding-top: 6%;
+  text-align: center;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 20px #0fa,
+    0 0 20px #0fa;
+}
+
+p {
+    color: aquamarine;
+}
+
+p2 {
+    color: yellow;
+    font:16px Helvetica;
+    text-transform: uppercase;
+    
+}
+
+h1: {
+  padding-top: 12%
+
+}
+
+
+
+
